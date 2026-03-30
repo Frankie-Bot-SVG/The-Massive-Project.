@@ -1,0 +1,70 @@
+/* This is a single-line comment */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../media/background02.jpg");
+  font-family: "Segoe UI", Roboto, sans-serif;
+  margin: 0;
+  color: #253238;
+}
+/*#04AA6D */ /*058457*/
+header {
+  background: linear-gradient(120deg, #aa4104, #842d05);
+  color: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+nav {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+/*nav.a {
+  font-size: 30px ;
+} */
+
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+section {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+/*#04AA6D*/
+section h2 {
+  margin-top: 0;
+  color: #aa0404;
+}
+
+/* /*#e8edf4 */
+footer {
+  padding: 24px;
+  text-align: center;
+  background: lch(93.56% 3.98 264.6);
+  font-size: 0.9rem;
+}
+
+.p1 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+width: 100%;
+height: auto;}
